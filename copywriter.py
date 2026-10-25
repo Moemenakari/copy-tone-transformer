@@ -28,7 +28,7 @@ from prompts import PLATFORMS, SYSTEM_INSTRUCTION, TONES, build_prompt
 
 load_dotenv()
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 MAX_CONCURRENT = 3  # how many requests can run at the same time
 OUTPUT_DIR = Path("outputs")
 
